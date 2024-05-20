@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "authorId": 1,
+    "title": "Title 1",
+    "name": "Bin 1",
+    "sharedWithUsers": [],
+    "text": "This is bin 1"
+  },
+  {
+    "id": 2,
+    "authorId": 1,
+    "title": "Title 2",
+    "name": "Bin 2",
+    "sharedWithUsers": [],
+    "text": "This is bin 2"
+  },
+  {
+    "id": 3,
+    "authorId": 1,
+    "title": "Title 4",
+    "name": "Bin 3",
+    "sharedWithUsers": [],
+    "text": "This is bin 3"
+  },
+  {
+    "id": 4,
+    "authorId": 1,
+    "title": "Title 4",
+    "name": "Bin 4",
+    "sharedWithUsers": [],
+    "text": "This is bin 4"
+  },
+  {
+    "id": 5,
+    "authorId": 1,
+    "title": "Title 5",
+    "name": "Bin 5",
+    "sharedWithUsers": [],
+    "text": "This is bin 5"
+  },
+  {
+    "id": 6,
+    "authorId": 1,
+    "title": "Title 6",
+    "name": "Bin 6",
+    "sharedWithUsers": [],
+    "text": "This is bin 6"
+  }
+]

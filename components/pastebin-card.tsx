@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Label } from "./ui/label"
 import { Textarea } from "./ui/textarea"
 import { Button } from "./ui/button"
-import { Bin } from "../app/bins/page"
 
 interface PastebinCardProps {
   bin: Bin;

@@ -14,10 +14,11 @@ export default function PasteBinPage() {
   const [userText, setUserText] = useState(1);
 
   const handleSubmit = () => {
-    console.log("Submit was clicked")
-    console.log(`Message: ${text}`)
+    
   }
 
+
+  //instead of writing to a db for now we are going to write to a local file.
   return (
     <div className="flex items-center justify-center min-h-screen min-w-screen">
       <div className="w-1/4 flex flex-col items-center">
@@ -34,7 +35,6 @@ export default function PasteBinPage() {
         <Label className="m-2" htmlFor="tempUserId">Enter User Id</Label>
         <Input onChange={(e) => setUserText(Number(e.target.value))} className="m-2" id="tempUserId" placeholder="Input User Id" />
         <Button onClick={() => setCurrentUser(userText)}>Set User ID</Button>
-
       </div >
     </div>
   );
